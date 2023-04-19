@@ -2,13 +2,22 @@
 
 Welcome to my repository for the <strong>Tours to Chernobyl</strong> project! This project was created as part of my studies in the <em>Advance CSS</em> course on Udemy, and it serves as a repository for the site I built during the course.
 
-## 🌎 Purpose
+## 🎯 Purpose
 
-The purpose of this repository is to store the Tours to Chernobyl project so I can use its components in future projects or share it with recruiters when I decide to find work.
+The Tour to Chernobyl project showcases my front-end development skills and expertise in HTML, CSS, and SASS. It features innovative design elements and techniques that create a memorable user experience. The project also serves as a valuable tool for other developers and designers who are looking to learn more about front-end web development.
 
-## 🖥️ Technology
 
-The Tours to Chernobyl project was built using <strong>HTML</strong> and <strong>CSS</strong>, without any <strong>JavaScript</strong> (as required by the course project specifications). In the course, I also learned how to use <strong>SASS</strong> to improve my CSS workflow.
+## 💻 Technology
+
+The Tour to Chernobyl project was built using HTML and CSS, without any JavaScript (as per the requirements of the course). In order to improve the efficiency and organization of the CSS code, I also used SASS, a powerful CSS preprocessor that allows for the use of variables, mixins, and other advanced features.
+
+Some of the key technologies and tools used in this project include:
+
+- HTML
+- CSS
+- SASS
+- Visual Studio Code
+- GitHub
 
 ## 💡 Features
 
