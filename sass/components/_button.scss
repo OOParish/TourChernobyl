@@ -1,0 +1,104 @@
+.btn {
+
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+    }
+
+    &:hover {
+        transform: translateY(-0.2rem);
+        box-shadow: 0 0.5rem 1rem rgba($color-black, .3);
+        background-color: $color-white;
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &--white {
+        font-size: 1.5rem;
+        font-weight: 700;
+        border: 0.1rem solid $color-white;
+        background-color: rgba($color-white, 0.7);
+        color: $color-grey-dark;
+        padding: 1.5rem 3rem;
+        display: inline-block;
+        border-radius: 3rem;
+        transition: all .2s;
+        animation: moveInDown .5s ease-out .5s;
+        animation-fill-mode: backwards;
+
+        &::after {
+            background-color: rgba($color-white, 0.1);
+        }
+    }
+
+    &--primary {
+        font-size: 1.7rem;
+        font-weight: 700;
+        border: 0.1rem solid $color-primary;
+        background-color: rgba($color-primary, 0.1);
+        color: $color-primary;
+        padding: 1.2rem 2.5rem;
+        display: inline-block;
+        border-radius: 3rem;
+        transition: all .2s;
+        animation: moveInDown .5s ease-out .5s;
+        animation-fill-mode: backwards;
+
+        &::after {
+            background-color: rgba($color-primary, 0.1);
+        }
+    }
+
+    &:active {
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.25rem 0.5rem rgba($color-black, .4);
+        background-color: rgba($color-white, .8);
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+        background-color: rgba($color-white, 0.1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+}
+
+.btn-text {
+
+    &:link,
+    &:visited {
+        font-size: $deffault-font-size;
+        color: $color-primary-dark;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid $color-primary-dark;
+        padding: .3rem;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $color-primary-dark;
+        color: $color-white;
+
+        box-shadow: 0 0.5rem 1rem rgba($color-black, .3);
+
+        transform: translateY(-.2rem);
+    }
+
+    &:active {
+        box-shadow: 0 0.5rem .5rem rgba($color-black, .3);
+        transform: translateY(-.1rem);
+    }
+}
